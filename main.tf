@@ -30,7 +30,7 @@ resource "google_compute_instance" "vm_instance" {
   boot_disk {
     initialize_params {
     #  image = "ubuntu-2004-focal-v20200609"
-      image = "jenkinsmasterslave"
+      image = " jenkis2"
     }
   }
 
