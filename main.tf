@@ -31,6 +31,7 @@ resource "google_compute_instance" "vm_instance" {
     initialize_params {
     #  image = "ubuntu-2004-focal-v20200609"
       image = "jenkins7"
+      size = 100
     }
   }
 
